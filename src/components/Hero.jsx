@@ -1,11 +1,11 @@
 import { ReactTyped } from "react-typed"
-
+// import ImageEducacao from '../components/sub-componentes/imagens-slide/educacao-ods.jpeg'
 function Hero(){
     return(
     <div className="w-full h-3/4 top-0">
       <div id="hero-section" className="w-full h-full p-14 overflow-hidden bg-gradient-radial-green-blue
           bg-center
-          bg-[url('src/assets/hero/ods-hero-section.png')] bg-no-repeat
+          bg-[url('./components/sub-componentes/imagens-slide/ods-hero-section.png')] bg-no-repeat
           bg-cover bg-origin-border bg-clip-border
           ">
           <div className="flex justify-center items-center">
