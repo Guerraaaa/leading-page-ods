@@ -5,12 +5,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-  font-family: "Sedan";
-  src: url('src/fonts/Sedan') format("ttf");
-}
+
 body{
-  background-color: white;
+  background-color: #fffafa;
 }
 *,
 *::before,
